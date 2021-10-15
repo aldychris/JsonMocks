@@ -1,0 +1,33 @@
+{
+  "responseCode":200,
+  "responseMessage":"Config",
+  "response":{
+    "token":"c52ce613bdccb7dd23fc08dff74ae5caba4547a3f1e3550a0df083694ee67d4b2e498bb4e8f98fcaacd243f37d9f85",
+    "config":[
+      {
+        "key":"localization_en",
+        "name":"localization_en",
+        "value":{
+          "hello":"Hi From Production...",
+          "name_location":"My name is {name} born in {location}"
+        }
+      },
+      {
+        "key":"localization_zh",
+        "name":"localization_zh",
+        "value":{
+          "hello":"你好",
+          "name_location":"我叫 {name} 出生在 {location}"
+        }
+      },
+      {
+        "key":"localization_tlh",
+        "name":"localization_tlh",
+        "value":{
+          "hello":"Tar lIch...",
+          "name_location":"'oH pongwIj'e' {name} bogh {location}"
+        }
+      }
+    ]
+  }
+}
